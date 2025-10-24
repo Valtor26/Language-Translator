@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Translator</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <h1>My AI Translator App</h1>
+
+    <div>
+      <textarea
+        id="user-text-input"
+        placeholder="Type your text here..."
+      ></textarea>
+    </div>
+    <div>
+      <label for="lang-select">Translate to:</label>
+      <select id="lang-select">
+        <option value="English">English</option>
+        <option value="Hindi">Hindi</option>
+        <option value="Kannada">Kannada</option>
+        <option value="Spanish">Spanish</option>
+        <option value="French">French</option>
+        <option value="German">German</option>
+      </select>
+    </div>
+    <br />
+    <div>
+      <button id="submit-button">Process Text</button>
+    </div>
+
+    <div id="results">
+      <h3>Results:</h3>
+      <div class="result-item">
+        <strong>Identified Language:</strong> <span id="result-language"></span>
+      </div>
+      <div class="result-item">
+        <strong>Alphabet:</strong> <span id="result-alphabet"></span>
+      </div>
+      <div class="result-item">
+        <strong>Translation:</strong> <span id="result-translation"></span>
+      </div>
+      <div class="result-item" id="result-status"></div>
+    </div>
+    <script src="/static/script.js"></script>
+  </body>
+</html>
