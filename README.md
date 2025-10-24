@@ -1,3 +1,6 @@
+##Live Demo 🔗
+(Click Here) 👉(https://language-translator-8drp.onrender.com/)
+
 # AI Language Translator
 
 A simple web application that uses the Gemini AI to identify the language, alphabet, and translate text. This project is built with a Python Flask backend and a simple HTML/CSS/JS frontend.
